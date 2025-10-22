@@ -1,0 +1,60 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: poppins;
+  justify-content: center;
+}
+
+.container {
+  margin: 0px;
+  padding: 20px;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  background-color: #97c76e;
+
+
+  & h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    text-decoration: black 2px solid;
+  }
+
+
+  & #input-task {
+    width: 70%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+  }
+
+  & #add-task-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  & .card {
+    list-style-type: none;
+    margin-top: 20px;
+  }
+
+
+  & .card li {
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  & .button:hover {
+    background-color: #ffffff;
+  }
+}
